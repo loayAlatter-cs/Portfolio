@@ -1,0 +1,66 @@
+/* App.css أو ملف css مخصص */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Poppins', sans-serif;
+    color: #1f1f1f;
+    color: #edf6fa;
+  }
+  
+  .profile-card {
+    background-color: #819608;
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(121, 181, 3, 0.1);
+    text-align: center;
+  }
+  
+  .profile-image {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+  
+  .profile-title {
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  .profile-subtitle {
+    color: #6c757d;
+  }
+  
+  .social-icons a {
+    margin: 0 8px;
+    color: #008080;
+    transition: 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: #005f5f;
+  }
+  
+  .btn-custom {
+    background-color: #008080;
+    color: #fff;
+    border-radius: 30px;
+    padding: 8px 24px;
+    font-weight: 500;
+    border: none;
+  }
+  
+  .btn-custom-outline {
+    background-color: transparent;
+    border: 2px solid #008080;
+    color: #008080;
+    border-radius: 30px;
+    padding: 8px 24px;
+    font-weight: 500;
+  }
+  
+  .btn-custom-outline:hover {
+    background-color: #008080;
+    color: #fff;
+  }
+  
